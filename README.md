@@ -1,9 +1,9 @@
 # landing-page
 
-This landing page is for a Hibiscus flower website
+This landing page is for a Hibiscus flower website.
 The hibiscus image were sourced from pixelbay.com and @hirokolele on Instagram.
 
-This project helps to solidify Flexbox knowledge covered by The Odin Project cirriculum
+This project helps to solidify Flexbox knowledge covered by The Odin Project curriculum
 It covers the Flexbox concepts:
 - Basics
 - Flex Containers And Items
