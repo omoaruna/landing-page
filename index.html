@@ -3,99 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Fav Schiaparelli Looks</title>
+    <title>Hibiscus</title>
 </head>
 <body>
-    <nav>
-        <div class="container">
-            <div class="logo">Header Logo</div>
-            <ul>
-                <li>
-                    <a href="#">header link 1</a>
-                </li>
-                <li>
-                    <a href="#">header link 2</a>
-                </li>
-                <li>
-                    <a href="#">header link 3</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <header>
-        <div class="header-container">
-            <div class="header">
-                <h1>This website is awesome</h1>
+    <div class="wrapper">
+        <section class="first-section">
+            <!-- First flex item in this container. -->
+            <nav>
+                <div class="logo">Header Logo</div>
+                <ul class="nav-list">
+                    <li>header link 1</li>
+                    <li>header link 2</li>
+                    <li>header link 3</li>
+                </ul>
+            </nav>
+            <!-- Second flex item in this container. -->
+           <div class="hero-container">
+                <!-- Fist flex item in THIS container -->
+                <div class="hero-content">
+                    <h1>This website is awesome</h1>
+                    <p>
+                        This website has some subtext that goes here under the main title. 
+                        It's a smaller font and the color is lower contrast.
+                    </p>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <img src="images/hibiscus-hero-image.png" alt="A beautiful PNG image of a red hibiscus flower">
+            </div>
+
+        </section>
+        
+        <section class="second-section">
+            <div class="random-title">
+                <h2>Some random information</h2>
+            </div>
+            <div class="info-content">
+                <div class="info-card">
+                    <img src="images/hibiscus-image-one.jpg" alt="" width="500" height="300">
+                    <p>    
+                        this is some subtext under an illustration
+                        or image.
+                    </p>
+                </div>
+                <div class="info-card">
+                    
+                    <img src="images/hibiscus-image-two.jpg" alt="" width="500" height="500">
+                    <p>    
+                        this is some subtext under an illustration
+                        or image
+                    </p>
+                </div>
+                <div class="info-card">  
+                    <img src="images/hibiscus-image-three.jpg" alt="" width="600" height="400">
+                    <p>    
+                        this is some subtext under an illustration
+                        or image
+                    </p>
+                </div>
+                <div class="info-card">
+                    <img src="images/hibiscus-image-four.jpg" alt="" width="600" height="400">
+                    <p>    
+                        this is some subtext under an illustration
+                        or image
+                    </p>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="third-section">
+            <div class="quote-container">
                 <p>
-                   This website has some subtext that goes 
-                    here under the main title. It's a smaller font
-                    and the colour is lower contrast. 
+                    This is an inspiring quote, or a testimonial from a customer. 
+                    Maybe it's just filling up space, or maybe people will actually read it. 
+                    Who knows? All I know is that it looks nice.
                 </p>
+                <p>
+                    -Thor, God of Thunder
+                </p>
+            </div>
+        </section>
+
+        <section class="fourth-section">
+            <div class="container">
+                <div class="call-to-action">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>  
+                </div>
                 <button>Sign Up</button>
             </div>
-            <img src="images/bella-schiap.jpg" alt="Bella Hadid wearing a beautiful black
-            Schiaparelli dress with brass and rhinestone lung necklace. ">
-        </div>
-    </header>
-    <section class="cards">
-        <div class="container">
-            <h2>
-                Some random information
-            </h2>
-            <div class="card-container">
-                <a href="#"><img src="" alt=""></a>
-                <p>
-                    this is some subtext under an illustration
-                    or image.
-                </p>
-                <a href="#"><img src="" alt=""></a>
-                <p>
-                    this is some subtext under an illustration
-                    or image.
-                </p>
-                <a href="#"><img src="" alt=""></a>
-                <p>
-                    this is some subtext under an illustration
-                    or image.
-                </p>
-                <a href="#"><img src="" alt=""></a>
-                <p>
-                    this is some subtext under an illustration
-                    or image.
-                </p>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <p>Copyright © The Odin Project 2021</p>
             </div>
-        </div>
-    </section>
-    <section class="quote">
-        <div class="quote-container">
-            <p>
-               This is an inspiring quote, or a testimonial from a customer.
-               Maybe it's just filling up space, or maybe people will actually
-               read it. Who Knows? All I know is that ot looks nice. 
-            </p>
-            <p>
-                -Thor, God of Thunder
-            </p>
-        </div>
-    </section>
-    <section class="call-to-action">
-        <div class="call-to-action-container">
-            <div class="box">
-                <h3>Call to action. It's time!</h3>
-                <p>
-                    Sign up for our product by clicking that button right
-                    over there!
-                </p>
-            </div>
-            <button>Sign Up</button>
-        </div>
-    </section>
-    <footer>
-        <div class="footer-container">
-            <p>
-                Copyright © The Odin Project 2021
-            </p>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
